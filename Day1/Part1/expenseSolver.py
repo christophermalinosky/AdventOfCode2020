@@ -13,6 +13,8 @@ def solveExpense(fileName, goal):
         if goal % 2 == 0 and goal / 2 == number:
             halfs += 1
 
+    input.close()
+
     for inputNumber in inputSet:
         if goal % 2 == 0 and goal / 2 == inputNumber:
             if halfs >= 2:
